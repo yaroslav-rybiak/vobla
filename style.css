@@ -1,0 +1,110 @@
+body {
+    color: #75777c;
+    font: 12px PF DinDisplay Pro, sans-serif;
+    background-color: #000000;
+    margin: 0;
+}
+
+.navbar-default .navbar-toggle {
+    margin-top: 40px
+}
+
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background: transparent;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 123px;
+    height: 123px;
+    padding-top: 0;
+}
+
+/* Changing default nav li color */
+.nav.navbar-nav li a,
+.nav.navbar-nav li a:hover,
+.nav.navbar-nav li a:focus {
+    padding-top: 50px;
+    font: 13px Verdana, sans-serif;
+    color: #eee;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus  {
+    color: #eee;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.navbar {
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-default {
+    background: #0074bd url(images/bg.png);
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand > img {
+    margin-top: 33px;
+    margin-left: 33px;
+    margin-right: 33px;
+    height: 46px;
+    width: 131px;
+}
+
+.join_button {
+    float: right;
+    width: 145px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    height: 54px;
+    background: url(images/join_bg.png) top left no-repeat;
+    padding-left: 5px;
+}
+
+.join_button a {
+    font-size: 13px;
+    font-family: Verdana,sans-serif;
+    display: inline-block;
+    width: 140px;
+    height: 49px;
+    background: #3e3f46;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 15px;
+    text-decoration: none;
+}
+
+.join_button a:hover {
+    background: #54565f;
+}
+
+@media(min-width: 768px) {
+    .navbar-centre {
+        position: absolute;
+        margin: 0 auto 0 160px;
+    }
+}
+
+@media(min-width: 992px) {
+    .navbar-centre {
+        position: absolute;
+        margin: 0 auto 0 350px;
+    }
+}
